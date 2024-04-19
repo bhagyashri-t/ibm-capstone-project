@@ -1,0 +1,71 @@
+.signup {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.MuiPaper-root {
+    width: 600px;
+    margin: auto;
+}
+
+/* .signup h4 {
+    color:#4D4949;
+    font-size: xx-large;
+    text-align: center;
+} */
+
+.signup a {
+    display: inline;
+}
+
+.signup-form {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.signup-form input, .signup-form select {
+    border: 1px solid #029BD4;
+    color: #4D4949;
+    width: 60%;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+
+.signup-form input:focus {
+    border: 2px solid #029BD4;
+    outline: none;
+}
+
+.signup-form select:focus {
+    border: 2px solid #029BD4;
+    outline: none;
+}
+
+.login-option {
+    text-align: center;
+}
+
+.login-option  a {
+    margin: 5px;
+}
+
+.buttons {
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 15px 0px;
+}
+
+hr {
+    margin: 20px 20%;;
+}
