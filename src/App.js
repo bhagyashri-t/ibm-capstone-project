@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './Header/Header';
+import Home from './Home/Home';
+import Appointments from './Appointments/Appointments';
+import Reviews from './Reviews/Reviews';
+import Signup from './Signup/Signup';
+import Login from './Login/Login';
+import InstantConsultation from './InstantConsultationBooking/InstantConsultation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Header></Header>
+       {/* <div className='app-container'> */}
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/appointments" element={<Appointments></Appointments>}></Route>
+          <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+          <Route path="/signup" element={<Signup></Signup>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
+          <Route path="/instant-consultation" element={<InstantConsultation />} />
+        </Routes>
+       {/* </div> */}
     </div>
   );
 }
 
 export default App;
+
