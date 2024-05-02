@@ -1,5 +1,8 @@
 
-Card {
-    width: 600px;
-    margin: auto;
+.search-doctor-card.MuiPaper-root {
+    width: 100%;
+    background-color: #ffffff;
+    position: sticky;
+    top: 130px;
+    padding-bottom: 30px;
 }

@@ -7,9 +7,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import FormControl from '@mui/material/FormControl';
 import './FindDoctorSearch.css';
 
+
 function FindDoctorSearch() {
+
+
     return (
-        <Card variant="outline">
+        <Card variant="outline" className="search-doctor-card">
             <h4>Find doctor at your own ease</h4>
             <FormControl sx={{ m: 1, width: '50ch' }} variant="outlined">
             <InputLabel htmlFor="outlined-adornment-search">Search</InputLabel>

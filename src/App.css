@@ -71,6 +71,11 @@ input, select {
   font-weight: bold;
 }
 
+.action-button:hover {
+  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 25%), -1px -1px 3px 3px rgb(0, 0, 0, 25%);
+  background-color: #029BD4;
+}
+
 a {
   display: inline;
   margin: 15px 5px;
@@ -82,10 +87,10 @@ a {
 a:hover {
   font-weight: 700;
 }
-
+/* 
 .login, .signup, .appointments, .reviews {
   margin-top: 150px;
-}
+} */
 
 /* input, select {
   border: 1px solid #029BD4;

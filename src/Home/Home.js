@@ -6,7 +6,7 @@ function Home () {
             <h1 className='mission-text'>
                 Highest Quality Healthcare To Revive Your Future
                 <br/>
-            <button >
+            <button className="action-button">
                 Get Started
             </button>
             </h1>
